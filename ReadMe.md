@@ -8,10 +8,12 @@ This project is setup with the gulp task runner, the gulp recipe is based in Ahm
 Download gulpfile.js, package.json, and .gitignore files inside the root folder of your WordPress plugin or WordPress theme
 If you have cURL installed then you can run the following command to download all three files in one go (just make sure you open the root folder of your WordPress plugin or WordPress theme and download these files in the root):
 ```
-curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/package.json && curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/gulpfile.js && curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/.gitignore```
+curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/package.json && curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/gulpfile.js && curl -O https://raw.githubusercontent.com/ahmadawais/WPGulp/master/.gitignore
+```
 
 #### STEP 2: Editing the Project Variables
 Configure the project variables E.g. paths, translation data, etc. in gulpfile.js. Project variables can be found in the following two comments
+
 ```
 // START Editing Project Variables.
 {PROJECT VARIABLES}
