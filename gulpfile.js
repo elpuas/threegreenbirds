@@ -44,7 +44,7 @@ var team                    = 'el.puas <elpuas@gmail.com>'; // Team's Email ID.
 
 // Style related.
 var styleSRC                = './assets/sass/tgb-styles.scss'; // Path to main .scss file.
-var styleDestination        = './assets/'; // Path to place the compiled CSS file.
+var styleDestination        = './assets/css'; // Path to place the compiled CSS file.
 // Default set to root folder.
 
 // JS Custom related.
@@ -286,5 +286,5 @@ gulp.task( 'browser-sync', function() {
   gulp.task( 'default', ['styles', 'browser-sync'], function () {
   gulp.watch( projectPHPWatchFiles, reload ); // Reload on PHP file changes.
   gulp.watch( styleWatchFiles, [ 'styles' ] ); // Reload on SCSS file changes.
-  gulp.watch( customJSWatchFiles, [ 'customJS', reload ] ); // Reload on customJS file changes.
+  // gulp.watch( customJSWatchFiles, [ 'customJS', reload ] ); // Reload on customJS file changes.
  });
