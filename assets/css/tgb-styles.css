@@ -1,7 +1,23 @@
 /* Three Green Birds Theme */
 /* child theme variables */
-.site-branding { background-color: transparent; }
+/* Colors */
+/*
+Tipography
+*/
+/* Paddings & Margin */
+/* Global Header */
+.site-header .custom-header .site-branding { background-color: transparent; }
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGdiLXN0eWxlcy5jc3MiLCJzb3VyY2VzIjpbInRnYi1zdHlsZXMuc2NzcyIsInZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDZCQUE2QjtBQ0E3QiwyQkFFRztBRElGLEFBQUEsY0FBYyxDQUFDLEVBQ1osZ0JBQWdCLEVBQUUsV0FBVyxHQUNoQyJ9 */
+.site-header .custom-header .site-branding .site-title a { color: white; }
+
+.site-header .custom-header .site-branding .site-description { color: white; }
+
+/* Global Footer */
+/* Front Page Only */
+.home .site-content .front-page-content-area .hentry { width: 70%; float: left; }
+
+.home .site-content .front-page-content-area .widget-area { background-color: #dec696; padding: 10px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGdiLXN0eWxlcy5jc3MiLCJzb3VyY2VzIjpbInRnYi1zdHlsZXMuc2NzcyIsInZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDZCQUE2QjtBQ0E3QiwyQkFFRztBQUVILFlBRUc7QUFNSDs7RUFFRTtBQUlGLHVCQUVHO0FEZkgsbUJBRUc7QUFDSCxBQUlJLFlBSlEsQ0FFVixjQUFjLENBRVosY0FBYyxDQUFDLEVBQ2IsZ0JBQWdCLEVBQUUsV0FBVyxHQVk5Qjs7QUFqQkwsQUFTUSxZQVRJLENBRVYsY0FBYyxDQUVaLGNBQWMsQ0FHWixXQUFXLENBRVQsQ0FBQyxDQUFDLEVBQ0EsS0FBSyxFQUFFLEtBQUssR0FDYjs7QUFYVCxBQWNNLFlBZE0sQ0FFVixjQUFjLENBRVosY0FBYyxDQVVaLGlCQUFpQixDQUFDLEVBQ2hCLEtBQUssRUFBRSxLQUFLLEdBQ2I7O0FBS1AsbUJBRUc7QUFVSCxxQkFFRztBQUNILEFBTU0sS0FORCxDQUVELGFBQWEsQ0FFWCx3QkFBd0IsQ0FFeEIsT0FBTyxDQUFDLEVBQ04sS0FBSyxFQUFFLEdBQUcsRUFDVixLQUFLLEVBQUUsSUFBSSxHQUNaOztBQVRQLEFBV00sS0FYRCxDQUVELGFBQWEsQ0FFWCx3QkFBd0IsQ0FPeEIsWUFBWSxDQUFDLEVBQ1gsZ0JBQWdCLEVDL0NGLE9BQU8sRURnRHJCLE9BQU8sRUNwQ00sSUFBSSxHRHFDbEIifQ== */
 
 /*# sourceMappingURL=tgb-styles.css.map */

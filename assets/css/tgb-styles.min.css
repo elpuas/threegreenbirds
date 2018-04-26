@@ -1,1 +1,5 @@
-.site-branding{background-color:transparent}
+.site-header .custom-header .site-branding{background-color:transparent}
+.site-header .custom-header .site-branding .site-title a{color:white}
+.site-header .custom-header .site-branding .site-description{color:white}
+.home .site-content .front-page-content-area .hentry{width:70%;float:left}
+.home .site-content .front-page-content-area .widget-area{background-color:#dec696;padding:10px}

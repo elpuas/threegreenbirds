@@ -25,9 +25,10 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-		<?php get_template_part( 'components/header/custom', 'header' ); ?>
-		
 		<?php get_template_part( 'components/navigation/navigation', 'top' ); ?>
+
+		<?php get_template_part( 'components/header/custom', 'header' ); ?>
+
 
 	</header>
 

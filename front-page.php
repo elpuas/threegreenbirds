@@ -20,10 +20,10 @@ get_header(); ?>
 						comments_template();
 					endif; ?>
 		<?php endwhile; ?>
+		<?php get_sidebar(); ?>
 	</div><!-- #primary -->
-  <?php get_sidebar(); ?>
-	<?php dara_featured_pages(); ?>
-
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('front-page-widget-area') ) : ?>
+	<?php endif;?>
 	<?php
 		$orderby = get_theme_mod( 'dara_testimonials', false );
 
@@ -42,7 +42,6 @@ get_header(); ?>
 			'no_found_rows'  => true,
 		) );
 	?>
-
 	<?php if ( $testimonials->have_posts() ) : ?>
 	<div id="front-page-testimonials" class="front-testimonials testimonials">
 		<div class="grid-row">
