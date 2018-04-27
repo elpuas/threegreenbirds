@@ -30,7 +30,7 @@
 // START Editing Project Variables.
 // Project related.
 var project                 = 'threeGreenBirds'; // Project Name.
-var projectURL              = 'http://threegreenbirds.local/'; // Local project URL of your already running WordPress site. Could be something like local.dev or localhost:8888.
+var projectURL              = 'http://threegreenbirds.local:8080'; // Local project URL of your already running WordPress site. Could be something like local.dev or localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
 // Translation related.

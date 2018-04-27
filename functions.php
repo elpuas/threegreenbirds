@@ -40,7 +40,7 @@ add_action( 'widgets_init', 'tgb_widgets_init' );
  class tgb_Widget_Recent_Posts extends WP_Widget {
 
      function __construct() {
-         $widget_ops = array('classname' => 'widget_recent_entries', 'description' => __( "The most recent posts on your site") );
+         $widget_ops = array('classname' => 'widget_better_recent_entries', 'description' => __( "The most recent posts on your site") );
          parent::__construct('better-recent-posts', __('Better Recent Posts'), $widget_ops);
          $this->alt_option_name = 'widget_recent_entries';
 
@@ -78,11 +78,11 @@ add_action( 'widgets_init', 'tgb_widgets_init' );
  ?>
          <?php echo $before_widget; ?>
          <?php if ( $title ) echo $before_title . $title . $after_title; ?>
-         <ul class="tgb">
+         <ul class="tgb-better-recent-posts">
          <?php while ( $r->have_posts() ) : $r->the_post(); ?>
              <li>
-                <?php echo get_the_post_thumbnail( $page->ID, 'thumbnail' ); ?>
-                 <a href="<?php the_permalink() ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php if ( get_the_title() ) the_title(); else the_ID(); ?></a>
+                 <span class="tgb-image-container"><?php echo get_the_post_thumbnail( $page->ID, array( 350, 230) ); ?></span>
+                 <h3><a href="<?php the_permalink() ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>"><?php if ( get_the_title() ) the_title(); else the_ID(); ?></a></h3>
              <?php if ( $show_date ) : ?>
                  <span class="excerpt-date"><?php echo get_the_excerpt(); ?></span>
              <?php endif; ?>

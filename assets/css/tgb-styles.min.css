@@ -3,3 +3,8 @@
 .site-header .custom-header .site-branding .site-description{color:white}
 .home .site-content .front-page-content-area .hentry{width:70%;float:left}
 .home .site-content .front-page-content-area .widget-area{background-color:#dec696;padding:10px}
+ul.tgb-better-recent-posts{display:-ms-grid;display:grid;grid-gap:40px;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr;padding:20px}
+span.tgb-image-container{max-height:170px;overflow:hidden;display:block}
+@media(max-width:768px){ul.tgb-better-recent-posts{-ms-grid-columns:1fr 1fr;grid-template-columns:1fr 1fr}
+}@media(max-width:425px){ul.tgb-better-recent-posts{-ms-grid-columns:1fr;grid-template-columns:1fr}
+}
