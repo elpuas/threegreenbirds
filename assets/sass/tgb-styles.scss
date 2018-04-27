@@ -2,16 +2,45 @@
 
  @import "variables";
 
+/*
+Global Styles
+ */
+
+ p, small, li, strong {
+   font-family: $paraghraph-font;
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+   font-family: $heading-font;
+   color: $primary-color;
+ }
+
+ /*
+ Override Parent Styles
+  */
+
+  .page-title, .entry-title, .entry-title a {
+      color: $primary-color;
+  }
+
+  button, input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span, .button {
+    background-color: $primary-color;
+}
+
 
 /*
 Global Header
  */
 .site-header {
-
+  .main-navigation {
+    background-color: $secondary-color;
+    border-bottom: solid 10px $primary-color;
+  }
   .custom-header {
 
     .site-branding {
       background-color: transparent;
+      padding-top:20%;
 
       .site-title {
 
@@ -31,10 +60,15 @@ Global Header
 Global Footer
  */
 .footer-widget-area {
+  background-color: #363636;
 
   .widget-area {
+    h3, p, a {
+      color: lightgray;
+    }
   }
 }
+
 .site-footer {
 
 }
@@ -70,6 +104,11 @@ ul.tgb-better-recent-posts {
   grid-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   padding: $padding-20;
+}
+
+.jetpack_widget_social_icons ul.size-small a {
+    height: 50px;
+    width: 50px;
 }
 
 @media (max-width: 768px) {

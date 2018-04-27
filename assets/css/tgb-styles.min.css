@@ -1,9 +1,17 @@
-.site-header .custom-header .site-branding{background-color:transparent}
+p,small,li,strong{font-family:"Open Sans",sans-serif}
+h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif;color:#789a82}
+.page-title,.entry-title,.entry-title a{color:#789a82}
+button,input[type="button"],input[type="reset"],input[type="submit"],#infinite-handle span,.button{background-color:#789a82}
+.site-header .main-navigation{background-color:#624428;border-bottom:solid 10px #789a82}
+.site-header .custom-header .site-branding{background-color:transparent;padding-top:20%}
 .site-header .custom-header .site-branding .site-title a{color:white}
 .site-header .custom-header .site-branding .site-description{color:white}
+.footer-widget-area{background-color:#363636}
+.footer-widget-area .widget-area h3,.footer-widget-area .widget-area p,.footer-widget-area .widget-area a{color:lightgray}
 .home .site-content .front-page-content-area .hentry{width:70%;float:left}
 .home .site-content .front-page-content-area .widget-area{background-color:#dec696;padding:10px}
 ul.tgb-better-recent-posts{display:-ms-grid;display:grid;grid-gap:40px;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr;padding:20px}
+.jetpack_widget_social_icons ul.size-small a{height:50px;width:50px}
 span.tgb-image-container{max-height:170px;overflow:hidden;display:block}
 @media(max-width:768px){ul.tgb-better-recent-posts{-ms-grid-columns:1fr 1fr;grid-template-columns:1fr 1fr}
 }@media(max-width:425px){ul.tgb-better-recent-posts{-ms-grid-columns:1fr;grid-template-columns:1fr}
