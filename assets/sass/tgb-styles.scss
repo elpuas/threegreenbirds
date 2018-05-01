@@ -89,7 +89,24 @@ Front Page Only
 
       .widget-area {
         background-color: $tertiary-color;
-        padding: $padding-10;
+        width: 30% !important;
+        max-width: 300px !important;
+        margin-top: -125px !important;
+
+        &#secondary{
+
+          &:after {
+            content: '';
+            height: 5px;
+            background-color: red;
+            width: 100%;
+            display: block;
+          }
+
+          .widget {
+            padding: 15px 10px;
+          }
+        }
       }
     }
   }

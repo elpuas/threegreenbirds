@@ -9,7 +9,9 @@ button,input[type="button"],input[type="reset"],input[type="submit"],#infinite-h
 .footer-widget-area{background-color:#363636}
 .footer-widget-area .widget-area h3,.footer-widget-area .widget-area p,.footer-widget-area .widget-area a{color:lightgray}
 .home .site-content .front-page-content-area .hentry{width:70%;float:left}
-.home .site-content .front-page-content-area .widget-area{background-color:#dec696;padding:10px}
+.home .site-content .front-page-content-area .widget-area{background-color:#dec696;width:30% !important;max-width:300px !important;margin-top:-125px !important}
+.home .site-content .front-page-content-area .widget-area#secondary:after{content:'';height:5px;background-color:red;width:100%;display:block}
+.home .site-content .front-page-content-area .widget-area#secondary .widget{padding:15px 10px}
 ul.tgb-better-recent-posts{display:-ms-grid;display:grid;grid-gap:40px;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr;padding:20px}
 .jetpack_widget_social_icons ul.size-small a{height:50px;width:50px}
 span.tgb-image-container{max-height:170px;overflow:hidden;display:block}
